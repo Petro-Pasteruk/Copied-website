@@ -24,13 +24,20 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
             />
             <noscript>
                 <img height="1" width="1" style={{display: "none"}}
-                src="https://www.facebook.com/tr?id=7722995224406373&ev=PageView&noscript=1"
+                     src="https://www.facebook.com/tr?id=7722995224406373&ev=PageView&noscript=1"
                 /></noscript>
+            <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
+            <link rel="manifest" href="/favicon/site.webmanifest"/>
+            <meta name="msapplication-TileColor" content="#da532c"/>
+            <meta name="theme-color" content="#ffffff"/>
         </Head>
         <body className={inter.className}>
         {children}
         </body>
-        <Script id='fb-pixel' strategy='afterInteractive' dangerouslySetInnerHTML={{__html:` 
+        <Script id='fb-pixel' strategy='afterInteractive' dangerouslySetInnerHTML={{
+            __html: ` 
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
