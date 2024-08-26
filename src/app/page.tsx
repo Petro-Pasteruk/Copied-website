@@ -38,68 +38,76 @@ export default function Home() {
                     height={208}
                     priority
                 />
-                <ul className={styles.footer_links}>
-                    <li className={styles.footer__item}>
-                        <a href="/" className={styles.footer__link}>
-                            <Image
-                                src="/images/messages.png"
-                                alt="messages img"
-                                width={104}
-                                height={104}
-                            />
-                        </a>
-                    </li>
-                    <li className={styles.footer__item}>
-                        <a href="/" className={styles.footer__link}>
-                            <Image
-                                src="/images/gmail.png"
-                                alt="gmail img"
-                                width={104}
-                                height={104}
-                            />
-                        </a>
-                    </li>
-                    <li className={styles.footer__item}>
-                        <a href="/" className={styles.footer__link}>
-                            <Image
-                                src="/images/whatsapp.png"
-                                alt="whatsapp img"
-                                width={104}
-                                height={104}
-                            />
-                        </a>
-                    </li>
-                    <li className={styles.footer__item}>
-                        <a href="/" className={styles.footer__link}>
-                            <Image
-                                src="/images/x.png"
-                                alt="x img"
-                                width={104}
-                                height={104}
-                            />
-                        </a>
-                    </li>
-                    <li className={styles.footer__item}>
-                        <a href="/" className={styles.footer__link}>
-                            <Image
-                                src="/images/chat.png"
-                                alt="chat img"
-                                width={104}
-                                height={104}
-                            />
-                        </a>
-                    </li>
-                    <li className={styles.footer__item}>
-                        <a href="/" className={styles.footer__link}>
-                            <Image
-                                src="/images/slack.png"
-                                alt="slack img"
-                                width={104}
-                                height={104}
-                            />
-                        </a>
-                    </li>
-                </ul>
+                <Image
+                    src="/images/footer-socials.png"
+                    alt="Footer Socials Img"
+                    className={styles.footer__socials}
+                    width={2957}
+                    height={295}
+                    priority
+                />
+                {/*<ul className={styles.footer_links}>*/}
+                {/*    <li className={styles.footer__item}>*/}
+                {/*        <a href="/" className={styles.footer__link}>*/}
+                {/*            <Image*/}
+                {/*                src="/images/messages.png"*/}
+                {/*                alt="messages img"*/}
+                {/*                width={104}*/}
+                {/*                height={104}*/}
+                {/*            />*/}
+                {/*        </a>*/}
+                {/*    </li>*/}
+                {/*    <li className={styles.footer__item}>*/}
+                {/*        <a href="/" className={styles.footer__link}>*/}
+                {/*            <Image*/}
+                {/*                src="/images/gmail.png"*/}
+                {/*                alt="gmail img"*/}
+                {/*                width={104}*/}
+                {/*                height={104}*/}
+                {/*            />*/}
+                {/*        </a>*/}
+                {/*    </li>*/}
+                {/*    <li className={styles.footer__item}>*/}
+                {/*        <a href="/" className={styles.footer__link}>*/}
+                {/*            <Image*/}
+                {/*                src="/images/whatsapp.png"*/}
+                {/*                alt="whatsapp img"*/}
+                {/*                width={104}*/}
+                {/*                height={104}*/}
+                {/*            />*/}
+                {/*        </a>*/}
+                {/*    </li>*/}
+                {/*    <li className={styles.footer__item}>*/}
+                {/*        <a href="/" className={styles.footer__link}>*/}
+                {/*            <Image*/}
+                {/*                src="/images/x.png"*/}
+                {/*                alt="x img"*/}
+                {/*                width={104}*/}
+                {/*                height={104}*/}
+                {/*            />*/}
+                {/*        </a>*/}
+                {/*    </li>*/}
+                {/*    <li className={styles.footer__item}>*/}
+                {/*        <a href="/" className={styles.footer__link}>*/}
+                {/*            <Image*/}
+                {/*                src="/images/chat.png"*/}
+                {/*                alt="chat img"*/}
+                {/*                width={104}*/}
+                {/*                height={104}*/}
+                {/*            />*/}
+                {/*        </a>*/}
+                {/*    </li>*/}
+                {/*    <li className={styles.footer__item}>*/}
+                {/*        <a href="/" className={styles.footer__link}>*/}
+                {/*            <Image*/}
+                {/*                src="/images/slack.png"*/}
+                {/*                alt="slack img"*/}
+                {/*                width={104}*/}
+                {/*                height={104}*/}
+                {/*            />*/}
+                {/*        </a>*/}
+                {/*    </li>*/}
+                {/*</ul>*/}
             </footer>
         </div>
     );
