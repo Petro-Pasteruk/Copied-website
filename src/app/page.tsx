@@ -43,7 +43,7 @@ export default function Home() {
                         height={1551}
                         priority
                     />
-                    <a href="https://apps.apple.com/app/apple-store/id1517022963" className={styles.intro__link} onClick={handleClick}>
+                    <a href="https://apps.apple.com/app/apple-store/id1517022963?pt=118212041&ct=meta%20landing%20button&mt=8" className={styles.intro__link} onClick={handleClick}>
                         Get for free
                     </a>
                 </div>
