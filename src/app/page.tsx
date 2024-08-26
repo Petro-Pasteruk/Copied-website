@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className={styles.wrapper}>
             <header className={styles.header}>
-                <a href="/" className={styles.header__logo}>
+                <a href="https://copiedpro.com" className={styles.header__logo}>
                     <Image
                         src="/images/logo.svg"
                         alt="Copied Logo"
