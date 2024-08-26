@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
 declare global {
     interface Window {
@@ -9,7 +9,7 @@ declare global {
     }
 }
 
-export default function Home() {
+export default function LandingPage() {
     const handleClick = () => {
         if (typeof window !== "undefined" && window.fbq) {
             window.fbq('track', 'ViewContent', {
